@@ -74,7 +74,7 @@ const rul = () => {
                   The RUL prediction for this project is done using two separate methodologies, and the results are
                   compared. Firstly, a simple Random Forest Regressor is used for prediction, and the score of the
                   regressor is evaluated. Subsequently, a more complex long short-term memory (LSTM) is used,
-                  and the Neural Network’s accuracy is compared to the regression model. The LSTM model is created using Keras’ sequential class.
+                  and the Neural Network&apos;s accuracy is compared to the regression model. The LSTM model is created using Keras&apos; sequential class.
                   The model uses MSE loss function and the Adam optimizer. The initial learning rate is set to
                   0.001, however, a learning rate scheduler is used so that during training epochs 0 to 5, the
                   learning rate is set to 0.001, and after that, the rate is set to 0.0001. This is done to increase the

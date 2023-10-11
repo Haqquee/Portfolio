@@ -38,13 +38,15 @@ function rrc() {
                 <div className="mb-6 ml-4 mt-2">
                   <h4 className="mb-1.5 text-xl font-semibold text-cyan-400"></h4>
                   <p className="mb-3 text-white text-lg">
+                  
                   Since joining the team I have had the pleasure of working with some extremely talented individuals. I chose to join the avionics sub-team of RRC, 
                   responsible for researching and developing electronics inside the rocket. During my first year on the team, my main task included working on the 
                   ground station of the rocket. Data such as speed, altitude, location, etc. were recorded by the avionics inside of the rocket and sent back to the 
-                  ground station. My team's main goal was to develop a ground station that is able to collect and display the transmitted data. 
+                  ground station. My team&apos;s main goal was to develop a ground station that is able to collect and display the transmitted data. 
                   I personally got to help the team with the process of researching electronics for the station. My work included figuring out various devices,
                   and a system to make these devices work together. I took previous designs that used a Raspberry Pi while researching and adding a new display, power source, controller, and cooling system using fans. I created the 
                   final layout of the ground station and got to present the final design to the rest of the team before proceeding with the rest of the project. 
+                  
                   </p>
     
                 </div>
@@ -68,7 +70,7 @@ function rrc() {
                   During this period of time, instead of making significant changes to our existing rocket, 
                   we worked on making smaller improvements that would help us for our future designs. 
                   As a part of the avionics subteam, I was tasked with figuring out thermal management 
-                  strategies for the rocket's avionics bay. Our goal was to eventually increase the altitude of 
+                  strategies for the rocket&apos;s avionics bay. Our goal was to eventually increase the altitude of 
                   the rocket to 60,000 ft+ in the air. Because of this, the avionics situated inside of the rocket 
                   would experience significant temperature changes. Due to the combined impact of cold temperatures 
                   at high altitudes, and a large amount of aerodynamic heating caused by the supersonic speeds, we needed to 

@@ -45,7 +45,7 @@ function rpg() {
                   </p>
                   <p className="mb-3 text-white text-lg">
                     I joined the Combustion Dynamics Subteam during my fourth year of University. During this time, the team was working on manufacturing their first engine for the 2021
-                    Launch Canada Competition. I was originally brought into the team to help with CFD simulations for the engine's combustion chamber. For the first time, the team was working on engine
+                    Launch Canada Competition. I was originally brought into the team to help with CFD simulations for the engine&apos;s combustion chamber. For the first time, the team was working on engine
                     simulations, and my responsibilities included understanding combustion simulations using a software called Ansys (simulation software), and performing these simulations for various
                     engine designs.
                     

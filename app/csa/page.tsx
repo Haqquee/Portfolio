@@ -52,7 +52,7 @@ export default csa;function csa() {
 
                   <p className="mb-3 text-white text-lg">
                     The development of Canadian Active Neutron Spectrometer (CANS), gives Canada the opportunity 
-                    to showcase Canadian technology in neutron spectrometry in space. The main objective of CANS is to design and build an active neutron spectrometer, to be tested on the International Space Station (ISS), and eventually delivered to NASA's Lunar Gateway Space Station. The CANS team is relatively small compared to some of the other projects within the agency, and therefore I was allowed to provide significant support to the sole project manager in the team, 
+                    to showcase Canadian technology in neutron spectrometry in space. The main objective of CANS is to design and build an active neutron spectrometer, to be tested on the International Space Station (ISS), and eventually delivered to NASA&apos;s Lunar Gateway Space Station. The CANS team is relatively small compared to some of the other projects within the agency, and therefore I was allowed to provide significant support to the sole project manager in the team, 
                     by helping with activities that contribute to the overall success of the project.  
                   </p>
 
@@ -64,7 +64,7 @@ export default csa;function csa() {
                     Having the opportunity to lead meetings that consisted of experienced engineers allowed me to get out of my comfort zone and gain leadership experience.          
                     </p>
                   <p className="mb-3 text-white text-lg"> 
-                  The Lunar Rover Mission (LRM) is Canada's first rover mission to the lunar surface. In collaboration with NASA, the LRM aims to send payloads to the moon to gather scientific data to help find water ice and to better understand the lunar environment. More information can be found here https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp. 
+                  The Lunar Rover Mission (LRM) is Canada&apos;s first rover mission to the lunar surface. In collaboration with NASA, the LRM aims to send payloads to the moon to gather scientific data to help find water ice and to better understand the lunar environment. More information can be found here https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp. 
                   The LRM was the second project that I was a part of during this term. This is a larger project in scale when compared to CANS and therefore it allowed me to get a different perspective of the process of developing a successful space mission. 
                   One of my largest contributions to this project was communicating and working together with our contractors on the project deliverables. It had to be made sure that the deliverables provided by the contractors were on par with the standards of the CSA. Some of these deliverables included monthly project dashboards, and project schedules. This meant I had to get a good understanding of what we were looking for at the agency, 
                   and meet with the contractors weekly to ensure that everyone was on the same page. 
@@ -112,7 +112,7 @@ export default csa;function csa() {
                 <div className="mb-6 ml-4 mt-2">
                   <h4 className="mb-1.5 text-xl font-semibold text-cyan-400">Project Management for Canadarm3</h4>
                   <p className="mb-3 text-white text-lg">
-                  My work term concluded with my position as the Project Management Intern for Canadarm3. Canadarm3 is one of Canada's biggest contributions to space technology, and a part of the US-led Lunar Gateway Program. This position gave me a chance to experience working with a team on the largest project in the Agency.  
+                  My work term concluded with my position as the Project Management Intern for Canadarm3. Canadarm3 is one of Canada&apos;s biggest contributions to space technology, and a part of the US-led Lunar Gateway Program. This position gave me a chance to experience working with a team on the largest project in the Agency.  
                   In this position, I took on similar tasks as my first project management term, however, the highlight of being on this team was spending a lot of my time updating the Project Management Plan (PMP) for Canadarm3. At the time I was hired, the PMP needed to be updated for the next phase of the project. This meant going through every section of the document, highlighting the changes required, 
                   and gathering appropriate information to make those changes. I was given the opportunity to work independently on the document while still having adequate support from my manager and the rest of the team. To tackle this task successfully, I looked through various documents and templates provided by Agency to understand the structure and content of a PMP. I also dove into PMPs done by other project teams to further enhance my knowledge of the task at hand. Additionally, I consulted my manager who was one of the project managers on Canadarm3, for support regarding the changes that I thought should be made.  
                   </p>

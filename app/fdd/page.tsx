@@ -42,7 +42,7 @@ const fdd = () => {
                   <p className="mb-3 text-white text-lg">
                   The Fire Detection Drone (FDD) is developed with the goal of providing an accurate and efficient method of detecting wildfires, 
                   while being cost effective and secure. The FDD makes use of built-in smoke and temperature sensors that are able to detect fire and 
-                  alert authorities across large distances. The payload’s GPS module allows it to accurately send location data to the ground station, 
+                  alert authorities across large distances. The payload&apos;s GPS module allows it to accurately send location data to the ground station, 
                   so that the exact location of the fire can be determined, and subsequently the wildfire can be suppressed. The inexpensive design of 
                   the FDD allows it to be deployed in masses across very large areas. As a result, they can perform sweeps and cover a wide range of 
                   locations that are at a risk of a potential wildfire. Due to the easy to maintain and incomplex design, the FDD can be easily used 
@@ -51,7 +51,7 @@ const fdd = () => {
                   </p>
                   <h4 className="mb-1.5 text-xl font-semibold text-cyan-400">Payload Subsystem</h4>
                   <p className="mb-3 text-white text-lg">
-                  The 8-bit CPU based Arduino UNO is the FDD’s primary computing module. With a core speed of 16MHz, it was chosen for its ability 
+                  The 8-bit CPU based Arduino UNO is the FDD&apos;s primary computing module. With a core speed of 16MHz, it was chosen for its ability 
                   to process sampling data with accuracy and precision in a quicker amount of time than a weight-comparable computing unit such as 
                   an Arduino-NANO. Due to its lightweight structure and 9V input voltage allowance, it was the ideal platform to provide a computing 
                   base for the mission specific sensors and instruments such as the DHT11 temperature and humidity sensor and the MQ2 particle sensor.
