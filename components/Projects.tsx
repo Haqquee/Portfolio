@@ -27,7 +27,7 @@ const Projects = () => {
             id: 1,
             src: csa,
             title: 'Internship at Canadian Space Agency',
-            link: '/Csa',
+            link: '/csa',
             description: 'I got the amazing opportunity to join the Canadian Space Agency in January of 2022. I held multiple internship positions throughout my 12 months at the Agency which includes project management positions for three different space projects as well as a mechanical engineering position.'
         },
         {
@@ -79,7 +79,7 @@ const Projects = () => {
   return (
  
     
-    <div id='Projects' className='w-full  min-h-screen py-20'>
+    <div id='projects' className='w-full  min-h-screen py-20'>
         <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8 items-center text-center'>
                 <p className='text-4xl pb-10 mb-10 border-b-2 border-cyan-400 '>Projects and Accomplishments</p>

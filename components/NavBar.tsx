@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import logo from '@/public/logo.png'
 
 const NavBar = () => {
@@ -16,29 +16,26 @@ const NavBar = () => {
 
 
   return (
-    <div className='fixed w-full h-20 shadow-md shadow-cyan-900 z-[100] bg-gray-950 opacity-[95%]'>
+    <div className='fixed w-full h-20 shadow-md shadow-cyan-900 z-[100] bg-gray-950 opacity-[96%]'>
+        
         <div className='flex justify-between items-center w-full h-full px-10 font-bold'>
             <Image src={logo} alt="/" width={75} height={75} />
         <div>
             <ul className='hidden md:flex gap-10'>
-                <Link href="/">
+                <Link href="/#home">
                     <li className='text-sm hover:text-cyan-400 hover:text-md hover:scale-110 duration-100'>Home</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#about">
                     <li className='text-sm hover:text-cyan-400 hover:text-md hover:scale-110 duration-100'>About</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#projects">
                     <li className='text-sm hover:text-cyan-400 hover:text-md hover:scale-110 duration-100'>Experience</li>
                 </Link>
-                <Link href="/">
-                    <li className='text-sm hover:text-cyan-400 hover:text-md hover:scale-110 duration-100'>Projects</li>
-                </Link>
-                <Link href="/">
-                    <li className='text-sm hover:text-cyan-400 hover:text-md hover:scale-110 duration-100'>Skills</li>
-                </Link>
-                <Link href="/">
+                
+                <Link href="/#contact">
                     <li className='text-sm hover:text-cyan-400 hover:text-md hover:scale-110 duration-100'>Contact</li>
                 </Link>
+                
             </ul>
             <div className='md:hidden' onClick={handleNav}>
                 <AiOutlineMenu size={25}/>
@@ -59,36 +56,45 @@ const NavBar = () => {
             </div>
             <div className='px-10 py-4 flex flex-col'>
                 <ul>
-                <Link href="/">
+                <Link href="/#home">
                     <li className='text-sm hover:text-cyan-400 hover:text-md py-4'>Home</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#about">
                     <li className='text-sm hover:text-cyan-400 hover:text-md py-4'>About</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#experience">
                     <li className='text-sm hover:text-cyan-400 hover:text-md py-4'>Experience</li>
                 </Link>
-                <Link href="/">
-                    <li className='text-sm hover:text-cyan-400 hover:text-md py-4'>Projects</li>
-                </Link>
-                <Link href="/">
-                    <li className='text-sm hover:text-cyan-400 hover:text-md py-4'>Skills</li>
-                </Link>
-                <Link href="/">
+                
+                <Link href="/#contact">
                     <li className='text-sm hover:text-cyan-400 hover:text-md py-4'>Contact</li>
                 </Link>
                 </ul>
             </div>
             <div className='rounded-full shadow-lg px-10 py-4 flex items-center gap-10'>
-                <div className='hover:text-cyan-500 cursor-pointer'>
-                    <FaLinkedinIn/>
-                </div>
-                <div className='hover:text-cyan-500 cursor-pointer'>
-                    <FaGithub />
-                </div>
-                <div className='hover:text-cyan-500 cursor-pointer'>
-                    <AiOutlineMail />
-                </div>
+            <ul className='flex justify-center'>
+                    <li className='flex justify-between items-center m-4 hover:scale-110 duration-100'>
+                        <Link href="mailto:mishran.haque@gmail.com" className='flex justify-between items-center scale-150 w-full hover:text-cyan-400'>
+                            <>
+                                <AiOutlineMail size={15}/>
+                            </>
+                        </Link>
+                    </li>
+                    <li className='flex justify-between items-center m-4 hover:scale-110 duration-100'>
+                        <Link href="https://www.linkedin.com/in/mishran-haque/" className='flex justify-between items-center scale-150 w-full hover:text-cyan-400'>
+                            <>
+                                <FaLinkedin size={15}/>
+                            </>
+                        </Link>
+                    </li>
+                    <li className='flex justify-between items-center m-4 hover:scale-110 duration-100'>
+                        <Link href="https://github.com/Haqquee" className='flex justify-between items-center scale-150 w-full hover:text-cyan-400'>
+                            <>
+                                <FaGithub size={15}/>
+                            </>
+                        </Link>
+                    </li>
+                </ul>
             
             </div>
             </div>

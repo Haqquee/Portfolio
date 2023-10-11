@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Contact = () => {
   return (
-    <div id='Contact' className='bg-gradient-to-b from-gray-950 to-black text-white h-screen'>
+    <div id='contact' className='bg-gradient-to-b from-gray-950 to-black h-screen'>
         <div className='flex max-w-screen-lg mx-auto flex-col items-center justify-center h-full'>
             <p className='text-4xl sm:text-4xl py-2'>Get in touch with me</p>
             <div className='mt-2'>
@@ -25,7 +25,7 @@ const Contact = () => {
                         </Link>
                     </li>
                     <li className='flex justify-between items-center m-4 hover:scale-110 duration-100'>
-                        <Link href="https://github.com/Haqquee" className='flex justify-between items-center scale-150 w-full text-white hover:text-cyan-400'>
+                        <Link href="https://github.com/Haqquee" className='flex justify-between items-center scale-150 w-full hover:text-cyan-400'>
                             <>
                                 <FaGithub />
                             </>

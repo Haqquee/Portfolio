@@ -4,7 +4,7 @@ import headshot from '@/public/headshot.jpg';
 
 const About = () => {
   return (
-    <div id='About' className='w-full min-h-screen'>
+    <div id='about' className='w-full min-h-screen'>
         <div className= 'max-w-screen-lg flex flex-col justify-center items-center w-full h-full mx-auto'>
             <div className='flex justify-center items-center '>
               <Image src={headshot} alt="headshot" className='scale-50 sm:scale-75 rounded-full h-auto max-w-xs' />
